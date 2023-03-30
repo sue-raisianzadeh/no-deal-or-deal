@@ -10,7 +10,7 @@ function Prize() {
   return (
     <>
       <p>Congratulations, you&apos;ve just won lots of money!</p>
-      <button onClick={handleClick}>Balloons</button>
+      <button onClick={handleClick}>Play Again</button>
     </>
   )
 }
