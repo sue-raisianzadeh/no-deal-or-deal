@@ -3,7 +3,7 @@ import Balloon from './Balloon'
 
 function Balloons() {
   return (
-    <div>
+    <div className="balloon-grid">
       {balloons.map((balloon) => (
         <Balloon key={balloon.id} {...balloon} />
       ))}

@@ -7,7 +7,7 @@ interface Props {
 function Balloon(props: Props) {
   return (
     <div>
-      <img src={props.img} />
+      <img className="balloon" src={props.img} alt="" />
     </div>
   )
 }
