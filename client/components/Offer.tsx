@@ -1,3 +1,4 @@
+
 import { Prize } from '../../data/prizeData'
 type Props = {
   prizes: Prize[]
@@ -21,3 +22,4 @@ function Offer({ prizes }: Props) {
 }
 
 export default Offer
+
