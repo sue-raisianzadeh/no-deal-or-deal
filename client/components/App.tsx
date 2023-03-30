@@ -1,15 +1,13 @@
 import { useEffect } from 'react'
 import { useAppDispatch, useAppSelector } from '../hooks'
 // import { fetchFruits } from '../slices/fruits'
-import { navigate } from '../slices/activePage'
+
 import Game from './Game'
 import Prize from './Prize'
 import Offer from './Offer'
+import prizes from '../../data/prizeData'
 
 function App() {
-  // const fruits = useAppSelector((state) => state.fruits)
-  const dispatch = useAppDispatch()
-
   const activePage = useAppSelector((state) => state.activePage)
 
   // useEffect(() => {
@@ -24,7 +22,7 @@ function App() {
 
         {activePage === 'game' ? <Game /> : <Prize />}
 
-        <Offer />
+        <Offer prizes={prizes} />
       </div>
     </>
   )

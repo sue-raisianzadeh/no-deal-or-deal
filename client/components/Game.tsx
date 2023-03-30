@@ -10,7 +10,7 @@ function Game() {
   return (
     <div>
       <div>
-        <h1>Ballons</h1>
+        <h1>Balloons</h1>
         <table>
           <tbody>
             <tr>
