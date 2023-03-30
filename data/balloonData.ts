@@ -17,7 +17,7 @@ const balloons: balloon[] = [
   },
   {
     id: 3,
-    img: './images/balloon-icons/yellow.jpeg',
+    img: './images/balloon-icons/yellow.jpg',
     isVisible: true,
   },
   {

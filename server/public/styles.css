@@ -1,0 +1,23 @@
+
+
+.balloon {
+  width: 50px;
+
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  border: 3px;
+}
+
+.balloon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-gap: 10px; /* gap between images */
+}
+
+.balloon-grid img {
+  width: 100%;
+  height: auto;
+}
