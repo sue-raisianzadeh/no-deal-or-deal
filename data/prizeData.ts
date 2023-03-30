@@ -1,10 +1,10 @@
-interface prize {
+export interface Prize {
   id: number
   amount: number
   isVisible: boolean
 }
 
-const prizes: prize[] = [
+const prizes: Prize[] = [
   {
     id: 1,
     amount: 1,
