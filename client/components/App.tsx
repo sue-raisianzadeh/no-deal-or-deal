@@ -13,6 +13,7 @@ function App() {
   return (
     <>
       <div className="app">
+        <img src="./images/balloon-icons/blue.jpeg" />
         <h1>Fullstack Boilerplate - with Fruits!</h1>
         <ul>
           {fruits.map((fruit) => (
