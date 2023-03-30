@@ -18,6 +18,23 @@
 }
 
 .balloon-grid img {
-  width: 100%;
+  width: 50%;
   height: auto;
+}
+
+.money-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columns */
+  grid-gap: 10px; /* gap between images */
+}
+
+.money-grid h2 {
+  background-color: aqua;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 3 columns */
+  grid-gap: 10px; /* gap between images */
+
 }
