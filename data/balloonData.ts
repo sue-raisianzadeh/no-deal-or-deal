@@ -66,3 +66,5 @@ const balloons: balloon[] = [
     isVisible: true,
   },
 ]
+
+export default balloons

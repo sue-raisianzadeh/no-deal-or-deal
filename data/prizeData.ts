@@ -66,3 +66,5 @@ const prizes: prize[] = [
     isVisible: true,
   },
 ]
+
+export default prizes
