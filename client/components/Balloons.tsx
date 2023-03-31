@@ -6,7 +6,9 @@ function Balloons() {
   return (
     <div className="balloon-grid">
       {balloons.map((balloon) => (
-        <Balloon key={balloon.id} {...balloon} />
+        <button key={balloon.id}>
+          <Balloon key={balloon.id} {...balloon} />
+        </button>
       ))}
     </div>
   )
