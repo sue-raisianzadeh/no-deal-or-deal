@@ -16,13 +16,13 @@ function App() {
   return (
     <>
 
-    {/* <div className='div-first' > */}
+    <div className='div-first' >
     <h1 className='bal-h1'>No Deal or Deal</h1>
       <div className="body-grid">
         <Balloons />
         <MoneyDisplay />
       </div>
-      {/* </div> */}
+      </div>
     </>
   )
 }
