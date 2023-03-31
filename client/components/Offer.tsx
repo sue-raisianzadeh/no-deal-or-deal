@@ -1,6 +1,6 @@
 import { navigate } from '../slices/activePage'
 import { useAppDispatch, useAppSelector } from '../hooks'
-
+// import prizes from '../slices/prizes'
 import { Prize } from '../../data/prizeData'
 
 type Props = {
