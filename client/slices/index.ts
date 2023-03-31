@@ -1,9 +1,9 @@
 import { combineReducers } from '@reduxjs/toolkit'
 
-import fruits from './fruits'
 import activePage from './activePage'
+import balloons from './balloons'
 
 export default combineReducers({
-  fruits,
   activePage,
+  balloons,
 })
