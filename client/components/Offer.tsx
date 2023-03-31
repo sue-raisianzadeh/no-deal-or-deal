@@ -30,7 +30,7 @@ function Offer({ prizes }: Props) {
     <>
       <p>Banker&apos;s Offer:</p>
 
-      <h2>{average}</h2>
+      <h2>${average}</h2>
       <button onClick={clickHandler}>Prize</button>
     </>
   )

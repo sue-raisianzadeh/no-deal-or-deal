@@ -7,7 +7,7 @@ interface Props {
 function Money(props: Props) {
   return (
     <div className="money-grid">
-      <h2 className="money-h2">{props.amount}</h2>
+      <h2 className="money-h2">{`$` + props.amount}</h2>
     </div>
   )
 }
