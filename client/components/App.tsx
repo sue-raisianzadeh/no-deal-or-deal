@@ -1,14 +1,13 @@
-import { useEffect } from 'react'
-import { useAppDispatch, useAppSelector } from '../hooks'
+// import { useEffect } from 'react'
+// import { useAppDispatch, useAppSelector } from '../hooks'
 // import { fetchFruits } from '../slices/fruits'
+import Balloons from './Balloons'
+import MoneyDisplay from './MoneyDisplay'
 
-import Game from './Game'
-import Prize from './Prize'
-import Offer from './Offer'
-import prizes from '../../data/prizeData'
 
 function App() {
-  const activePage = useAppSelector((state) => state.activePage)
+  // const fruits = useAppSelector((state) => state.fruits)
+  // const dispatch = useAppDispatch()
 
   // useEffect(() => {
   //   dispatch(fetchFruits())
@@ -16,14 +15,14 @@ function App() {
 
   return (
     <>
-      <div className="app">
-        {/* <img src="./images/balloon-icons/blue.jpeg" /> */}
-        <h1>Fullstack Boilerplate - with Fruits!</h1>
 
-        {activePage === 'game' ? <Game /> : <Prize />}
-
-        <Offer prizes={prizes} />
+    {/* <div className='div-first' > */}
+    <h1 className='bal-h1'>No Deal or Deal</h1>
+      <div className="body-grid">
+        <Balloons />
+        <MoneyDisplay />
       </div>
+      {/* </div> */}
     </>
   )
 }
