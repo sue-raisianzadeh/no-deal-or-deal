@@ -16,13 +16,7 @@
 /* .container {
   flex-direction: column;
   display: flex;
-  border: 3px;
-} */
-
-/* ballons page */
-.balloon {
-  width: 50px;
-
+  
 }
 
 .balloon-grid {
@@ -63,5 +57,18 @@
   display: grid;
   grid-template-columns: 2fr 1fr; /* 3 columns */
   /* grid-gap: 10px; gap between images */
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+    
+}
+
+.header img {
+  height: 150px;
+  
 
 }
