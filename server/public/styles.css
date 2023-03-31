@@ -1,15 +1,28 @@
 /* App page */
 
 .bal-h1 {
-  font-size: 6em;
+  font-size: 5em;
   text-align: center;
+
+  padding: 15px;
+  margin:8px;
+
 }
 
 .div-first {
   background-color: rgb(230, 226, 185);
+
+  border-radius:2%;
+  box-shadow: 2 10px #999;
+  padding: 8px;
+  margin:12px;
+}
+
+
   border-radius:15%;
   box-shadow: 0 9px #999;
 } 
+
 
 
 
@@ -26,9 +39,12 @@
 
 .balloon-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 3 columns */
-  /* grid-gap: 5px; gap between images */
-} 
+
+  grid-template-columns: repeat(4, 1fr); /* 3 columns */
+  height: 45%;
+  margin-right: 0px;
+}
+
 
   
 .balloon-grid img {
@@ -39,11 +55,11 @@
 .money-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 10px;
-  height: 50%;
-  /* 3 columns */
-  /* grid-gap: 10px;  */
-}
+
+  padding: 5px;
+  height: 22%;
+
+
 
 .money-grid h2 {
   background-color: rgb(155, 189, 218);
@@ -53,7 +69,9 @@
   font-size: 2em;
   margin: 2px;
   width: 6em;
-  height:3em; 
+
+  height:1.5em; 
+
   border-radius:15%;
   box-shadow: 0 9px #999;
   padding-top: 30px;
