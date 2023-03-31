@@ -6,6 +6,7 @@ import Game from './Game'
 import Prize from './Prize'
 import Offer from './Offer'
 import prizes from '../../data/prizeData'
+import Balloons from './Balloons'
 
 function App() {
   const activePage = useAppSelector((state) => state.activePage)
@@ -21,7 +22,7 @@ function App() {
         <h1>Fullstack Boilerplate - with Fruits!</h1>
 
         {activePage === 'game' ? <Game /> : <Prize />}
-
+        <Balloons />
         <Offer prizes={prizes} />
       </div>
     </>
