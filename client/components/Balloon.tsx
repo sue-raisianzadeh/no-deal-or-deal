@@ -1,5 +1,6 @@
 import { useAppDispatch, useAppSelector } from '../hooks'
 import { popBalloon } from '../slices/balloons'
+import { revealPrize } from '../slices/prizes'
 // import { selectBalloons } from '../slices/balloons'
 
 interface Props {
@@ -16,6 +17,7 @@ function Balloon(props: Props) {
     event.preventDefault()
 
     dispatch(popBalloon(id))
+    dispatch(revealPrize(id))
   }
 
   if (props.isVisible) {
