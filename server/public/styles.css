@@ -3,40 +3,44 @@
 .bal-h1 {
   font-size: 6em;
   text-align: center;
-  padding: 0px;
 }
 
 .div-first {
   background-color: rgb(230, 226, 185);
-  border-radius:10%;
+  border-radius:15%;
   box-shadow: 0 9px #999;
 } 
 
 
-/* ballons page */
-.balloon {
-  width: 40px;
 
+/* .container {
+  flex-direction: column;
+  display: flex;
+  
+} */
+
+.balloon {
+  width:50px
 }
+
 
 .balloon-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  height: 30%;
-  margin-right: 0px;
-}
+  grid-template-columns: repeat(3, 1fr); 3 columns */
+  /* grid-gap: 5px; gap between images */
+} 
 
+  
 .balloon-grid img {
-  width: 40%;
+  width: 50%;
   height: auto;
-  box-shadow: 0 9px #999;
 }
 
 .money-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5px;
-  height: 30%;
+  padding: 10px;
+  height: 50%;
   /* 3 columns */
   /* grid-gap: 10px;  */
 }
@@ -49,7 +53,7 @@
   font-size: 2em;
   margin: 2px;
   width: 6em;
-  height:2.5em; 
+  height:3em; 
   border-radius:15%;
   box-shadow: 0 9px #999;
   padding-top: 30px;
@@ -60,4 +64,31 @@
   grid-template-columns: 2fr 1fr; /* 3 columns */
   /* grid-gap: 10px; gap between images */
 
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+    
+}
+
+.header img {
+  height: 150px;
+  
+
+}
+
+.offer {
+  text-align: center;
+
+}
+
+.offer p {
+  font-size: 50px;
+
+}
+
+.offer h2 {
+  font-size: 70px;
 }
