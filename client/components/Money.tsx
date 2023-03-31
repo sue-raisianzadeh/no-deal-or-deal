@@ -6,8 +6,8 @@ interface Props {
 
 function Money(props: Props) {
   return (
-    <div>
-      <h2>{props.amount}</h2>
+    <div className=".money-grid">
+      <h2 className="money-h2">{props.amount}</h2>
     </div>
   )
 }
